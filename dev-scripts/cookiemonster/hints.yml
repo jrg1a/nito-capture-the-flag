@@ -1,0 +1,6 @@
+- content: "Hva slags verdi er 'Z3Vlc3Q='? Ser det kjent ut?"
+  cost: 10
+- content: "Hvis du dekoder 'Z3Vlc3Q=', hva får du da?"
+  cost: 20
+- content: "Hva skjer hvis du setter en ny cookieverdi for 'admin'?"
+  cost: 30

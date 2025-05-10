@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Override v2</title>
+</head>
+<body>
+    <!-- admin har valgt et nytt passord etter forrige lekkasje -->
+    <!-- kanskje det finnes et hint et sted webcrawlerne ikke får gå? -->
+    <h2>Login</h2>
+    <form method="POST">
+        Username: <input name="username" type="text"><br>
+        Password: <input name="password" type="password"><br>
+        <input type="submit" value="Login">
+    </form>
+    <p>{{ message }}</p>
+</body>
+</html>

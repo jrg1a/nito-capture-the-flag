@@ -1,0 +1,14 @@
+name: Cookie Monster
+category: Web
+description: >
+  Du får tilgang til en enkel webside som setter en cookie når du besøker den. 
+  Avhengig av hva som står i cookien, bestemmer applikasjonen om du får tilgang til flagget eller ikke.
+   Kan du finne ut hvordan systemet kjenner igjen "admin"-brukeren  og lure det??"
+value: 200
+type: standard
+flags:
+  - type: static
+    content: NITO{c00ki3s_4r3_p0w3rfu1}
+    data: case_insensitive
+files: []
+connection_info:  https://nitocybersikkerhet-web-challenge-cookie-monster.chals.io

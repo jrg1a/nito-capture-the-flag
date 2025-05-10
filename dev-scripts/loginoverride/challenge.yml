@@ -1,0 +1,12 @@
+name: Login Override v2
+category: Web
+description: >
+  Autentisering er oppdatert med hashing. Klarer du fortsatt å logge inn som admin?
+value: 450
+type: standard
+flags:
+  - type: static
+    content: NITO{hash_bypass_master}
+    data: case_insensitive
+files: []
+connection_info:  https://nitocybersikkerhet-login-override.chals.io
