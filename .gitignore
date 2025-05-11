@@ -1,0 +1,80 @@
+# VS Code settings
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+.Python
+
+# Jupyter Notebooks (checkpoint backups)
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# Logs and runtime
+*.log
+*.out
+*.pid
+
+# Git
+*.orig
+*.swp
+*.swo
+
+# Docker
+*.tar
+docker-compose.override.yml
+
+# Archives / dumps
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.img
+
+# Project-specific
+*.challenge.zip
+*.flag.txt
+flag.txt
+wordlist.txt
+
+# Node/npm (if used in frontend)
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Ignore all CTFd-generated .db or .sqlite files
+*.db
+*.sqlite*
+
+# Secrets (if any)
+secrets.env
+.env
+.env.*
+
+# Backup files
+*.bak
+*.backup
+*.old
